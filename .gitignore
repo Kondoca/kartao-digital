@@ -1,0 +1,19 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compilados
+dist/
+build/
