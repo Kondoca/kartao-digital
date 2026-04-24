@@ -363,22 +363,22 @@ body {
     }
 
     .card {
-        padding: 55px 28px 40px 28px;
+        padding: 55px 32px 40px 32px;
         border-radius: 34px;
-        width: calc(100% - 30px);
+        width: 100%;
         margin: 0 auto;
-        max-width: 500px;
+        max-width: 560px;
     }
 
     .profile-section {
-        margin-bottom: 55px;
+        margin-bottom: 58px;
     }
 
     .profile-image {
-        width: 120px;
-        height: 120px;
-        font-size: 44px;
-        margin-bottom: 26px;
+        width: 125px;
+        height: 125px;
+        font-size: 42px;
+        margin-bottom: 28px;
     }
 
     .name {
@@ -462,7 +462,7 @@ body {
 /* Desktop (769px+) */
 @media (min-width: 769px) {
     body {
-        padding: 20px;
+        padding: 30px 20px;
     }
 
     .container {
@@ -471,44 +471,44 @@ body {
     }
 
     .card {
-        padding: 60px 35px 50px 35px;
+        padding: 60px 45px 50px 45px;
         border-radius: 40px;
         width: 100%;
-        max-width: 500px;
+        max-width: 700px;
         margin: 0 auto;
     }
 
     .profile-section {
-        margin-bottom: 50px;
+        margin-bottom: 55px;
     }
 
     .profile-image {
-        width: 130px;
-        height: 130px;
-        font-size: 48px;
-        margin-bottom: 30px;
+        width: 140px;
+        height: 140px;
+        font-size: 52px;
+        margin-bottom: 32px;
     }
 
     .name {
-        font-size: 38px;
-        margin-bottom: 12px;
+        font-size: 42px;
+        margin-bottom: 13px;
     }
 
     .tagline {
-        font-size: 17px;
-        margin-bottom: 40px;
-        line-height: 1.5;
+        font-size: 18px;
+        margin-bottom: 45px;
+        line-height: 1.6;
     }
 
     .main-buttons {
-        gap: 14px;
-        margin-bottom: 45px;
+        gap: 15px;
+        margin-bottom: 50px;
     }
 
     .btn {
-        padding: 16px 22px;
-        font-size: 16px;
-        gap: 11px;
+        padding: 17px 24px;
+        font-size: 17px;
+        gap: 12px;
         border-radius: 18px;
     }
 
@@ -518,48 +518,48 @@ body {
     }
 
     .benefits-section {
-        padding: 30px;
-        margin-bottom: 35px;
-        border-radius: 25px;
+        padding: 32px;
+        margin-bottom: 40px;
+        border-radius: 26px;
     }
 
     .benefits-title {
         font-size: 13px;
         letter-spacing: 1.5px;
-        margin-bottom: 24px;
+        margin-bottom: 26px;
     }
 
     .benefit-item {
-        gap: 14px;
-        margin-bottom: 16px;
+        gap: 15px;
+        margin-bottom: 18px;
     }
 
     .benefit-icon {
-        width: 28px;
-        height: 28px;
-        font-size: 14px;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
         border-radius: 8px;
     }
 
     .benefit-text {
-        font-size: 15px;
-        line-height: 1.5;
+        font-size: 16px;
+        line-height: 1.6;
     }
 
     .cta-section {
-        padding: 30px;
-        border-radius: 25px;
-        margin-bottom: 25px;
+        padding: 32px;
+        border-radius: 26px;
+        margin-bottom: 30px;
     }
 
     .cta-text {
-        font-size: 20px;
-        margin-bottom: 8px;
+        font-size: 22px;
+        margin-bottom: 9px;
     }
 
     .cta-subtitle {
-        font-size: 14px;
-        margin-bottom: 20px;
+        font-size: 15px;
+        margin-bottom: 22px;
     }
 
     .footer {
