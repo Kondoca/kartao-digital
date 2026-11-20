@@ -1,113 +1,58 @@
-#Cartão Digital
-Projeto de cartão digital profissional desenvolvido com o objetivo de praticar HTML e CSS, com foco em layout e design moderno.
+# Cartão Digital
 
-🌐 Visualização do projeto
-O projeto está disponível online no link abaixo:
+Cartão digital profissional em formato de landing page minimalista, feito para transformar visitantes do Instagram em clientes pelo WhatsApp.
 
-👉 https://kondoca.github.io/kartao-digital/
+![Prévia do Cartão Digital](docs/preview.jpg)
 
-⚠️ Observação: a visualização do site fica melhor em computadores (desktop), pois o projeto ainda não é totalmente responsivo.
+🌐 **Acesse:** https://kondoca.github.io/kartao-digital/
 
-📌 Objetivo do projeto
-Este projeto foi criado para treinar a estruturação de páginas web e estilização com CSS, apresentando um cartão digital para serviços de marketing no Instagram.
+## Sobre o projeto
 
-🛠️ Tecnologias utilizadas
-HTML5
-CSS3
+A página reúne foto, uma frase de apresentação do serviço e um botão de WhatsApp em destaque, além de links para Instagram e GitHub, uma seção de benefícios e uma chamada para ação. Foi criada para praticar estruturação de páginas e estilização com CSS, com foco em layout e design moderno.
 
-▶️ Como executar o projeto localmente
-Clone este repositório
-Abra o arquivo index.html em qualquer navegador
+## Funcionalidades
 
-📚 Observação
-Este projeto foi desenvolvido apenas para fins educacionais. Não possui vínculo com marcas reais.m cartão digital moderno e elegante pra quem quer converter visitantes em clientes via Instagram.
-
-## O que é isso?
-
-É basicamente um landing page minimalista onde você coloca sua foto, uma descrição do seu serviço e um botão gigante do WhatsApp que quase "grita" pra pessoa clicar. Design premium, carregamento rápido, e otimizado pros celulares.
-
-## Features
-
-✅ Design dark premium (roxo + azul neon)  
-✅ Botão do WhatsApp bem destacado com animações  
-✅ Seção de benefícios pra vender a ideia  
-✅ Chamada para ação extra convincente  
-✅ 100% responsivo (looks bom em qualquer tela)  
-✅ Sem frameworks complexos (HTML + CSS, só isso)  
-✅ Sombras e animações que fazem parecer caro  
-
-## Como usar
-
-1. Clone esse repositório:
-```bash
-git clone https://github.com/kondoca/kartao-digital.git
-cd kartao-digital
-```
-
-2. Coloca sua foto em `Imagens/Perfil.png`
-
-3. Abre o `index.html` no navegador (ou manda pra um servidor)
-
-4. Se quiser personalizar:
-   - Muda os links do WhatsApp, Instagram e GitHub no HTML
-   - Edita as cores no `style.css` se não gostar do roxo/azul
-   - Ajusta o texto conforme necessário
-
-## Estrutura do projeto
-
-```
-Kondoca/
-├── index.html          # Toda a estrutura HTML
-├── style.css           # Estilos (design premium)
-├── README.md           # Esse arquivo
-└── Imagens/
-    └── Perfil.png      # Sua foto aqui
-```
+- Design escuro (roxo + azul neon) com efeito de vidro (glassmorphism)
+- Botão do WhatsApp em destaque, com animação de brilho
+- Animações de entrada suaves, que respeitam a preferência de movimento reduzido do sistema (`prefers-reduced-motion`)
+- Layout em formato de cartão, pensado para celular
+- Metatags Open Graph para a prévia do link ao compartilhar
+- Sem frameworks: só HTML e CSS
 
 ## Tecnologias
 
-- **HTML5** - Semântico e clean
-- **CSS3** - Gradientes, animações e glassmorphism
-- **Google Fonts** - Inter (tipografia moderna)
-- **Simple Icons** - Ícones SVG dos botões
+- HTML5
+- CSS3 (gradientes, animações e glassmorphism)
+- Google Fonts (Syne e DM Sans)
 
-## Customização rápida
+## Como executar localmente
 
-### Trocar cores
-No `style.css`, procura por:
-- `#8a2be2` (roxo)
-- `#00d4ff` (azul neon)
-- `#25d366` (verde WhatsApp)
-
-### Mudar links
-No `index.html`, encontra e edita:
-```html
-href="https://wa.me/5511982086573"  <!-- Seu número aqui -->
-href="https://www.instagram.com/kondoca/" <!-- Seu Instagram -->
-href="https://github.com/Kondoca" <!-- Seu GitHub -->
+```bash
+git clone https://github.com/Kondoca/kartao-digital.git
+cd kartao-digital
 ```
 
-### Editar textos
-Tudo que você vê é literalmente texto no HTML. Quer mudar "William"? Só trocar lá.
+Depois, abra o arquivo `index.html` no navegador.
 
-## Performance
+## Como personalizar
 
-- Sem imagens de fundo pesadas
-- Ícones em SVG (super leves)
-- CSS otimizado
-- Carrega rápido até em 3G
+- **Foto:** substitua `Imagens/Perfil.png`
+- **Links:** edite os endereços do WhatsApp (`https://wa.me/55DDDNUMERO`), Instagram e GitHub no `index.html`
+- **Cores:** no `style.css`, procure por `#8a2be2` (roxo), `#00d4ff` (azul neon) e `#25d366` (verde do WhatsApp)
+- **Textos:** todo o conteúdo está direto no `index.html`
 
-## Suporte
+## Estrutura
 
-Qualquer dúvida, erro ou ideia louca, só abrir uma issue no GitHub.
-
-## License
-
-MIT - Use à vontade, compartilha, cria em cima, whatever.
+```
+kartao-digital/
+├── index.html      # Estrutura da página
+├── style.css       # Estilos e animações
+├── Imagens/
+│   └── Perfil.png  # Foto do perfil
+└── docs/
+    └── preview.jpg # Imagem usada neste README
+```
 
 ---
 
-**Made with ❤️ por William Kondoca**
-
-*"Transformar Instagram em máquina de clientes não é fantasia, é estratégia."*
-#
+Feito por [William Kondoca](https://github.com/Kondoca)
